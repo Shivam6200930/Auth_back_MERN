@@ -8,6 +8,6 @@
     }
     ],
     "routers":[
-       { "src":"/(.*)","dest":"/index.js"}
+       { "src":"/api/users","dest":"/index.js"}
     ]
 }
