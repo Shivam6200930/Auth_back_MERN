@@ -1,0 +1,13 @@
+{
+    "version":2,
+    "framework":"node",
+    "name":"socketing",
+    "builds":[
+       { "src" : "index.js",
+       "use":"@vercel/node"
+    }
+    ],
+    "routers":[
+       { "src":"/(.*)","dest":"/index.js"}
+    ]
+}
