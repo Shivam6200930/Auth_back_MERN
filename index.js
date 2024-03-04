@@ -28,7 +28,7 @@ connectDb(DATABASE_URL)
 
 const corsOptions = {
     credentials: true,
-    origin: 'https://mart-forntend-idgn.vercel.app/', // Update this with the actual origin of your frontend application
+    origin: '*', // Update this with the actual origin of your frontend application
   };
   
   app.use(cors(corsOptions));
