@@ -1,5 +1,15 @@
 {
   "version": 2,
-	"bulids":[{"src":"*.js","use":"@vercel/node"}],
-	"routes": [{ "source": "/(.*)", "destination": "/" }]
+	"bulids":[
+		{
+			"src":"*.js",
+			"use":"@vercel/node"
+		}
+	],
+	"routes": 
+	[
+		{ "source": "/api/users/(.*)", 
+			"destination": "/" 
+		}
+	]
 }
